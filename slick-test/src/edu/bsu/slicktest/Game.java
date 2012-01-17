@@ -22,7 +22,7 @@ public class Game extends BasicGame {
 
      public Game()
      {
-         super("Wizard game");
+         super("Wizard game !!!!");
      }
 
      public static void main(String [] arguments)
