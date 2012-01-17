@@ -30,7 +30,7 @@ public class Game extends BasicGame {
          try
          {
              AppGameContainer app = new AppGameContainer(new Game());
-             app.setDisplayMode(800, 600, false);
+             app.setDisplayMode(1000, 600, false);
              app.start();
          }
          catch (SlickException e)
@@ -95,7 +95,7 @@ public class Game extends BasicGame {
          }
          else if (input.isKeyDown(Input.KEY_DOWN))
          {
-             sprite = down;
+        	 sprite = down;
              if (!isBlocked(x, y + SIZE + delta * 0.1f))
              {
                  sprite.update(delta);
